@@ -1,25 +1,25 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import  axios from 'axios'
 
 
 export default function App() {
- const [records, setRecords] = useState([])
+ const [quote, setQuote] = useState('')
 
-useEffect(()=> {
-  fetch('https://jsonplaceholder.typicode.com/users')
-  .then(response => response.json())
-  .then(data => setRecords(data))
-  .catch(err => console.log(err))
-}, [])
-
+ const getQuote = () => {
+    axios.get('https://api.quotable.io/random')
+    .then(response => {
+      console.log(response)
+      console.log(response.data.content)
+      setQuote(response.data.content)
+    }).catch(error =>{
+      console.log(error)
+    })
+ }
   return (
     <>
-    <h1>bum</h1>
-    <ul>
-      {records.map((list, index)=> (
-        <li key={index}>{list.email}</li>
-      ))}
-    </ul>
+   <button onClick={getQuote}>Get Quote</button>
+   {quote ? <p>{quote}</p> : null}
     
     </>
   )
