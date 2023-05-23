@@ -31,6 +31,28 @@
         /* or 82px */
         color: #302e2e;
     }
+    
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #d023e7;
+        color: white;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .button:hover {
+        background-color: #cf49e0;
+    }
+    
+    .button:active {
+        background-color: #e6a0f0;
+    }
     /* responsive------------------------------------ */
     
     @media (max-width: 600px) {

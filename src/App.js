@@ -23,7 +23,7 @@ export default function App() {
 
      
       {quote ? <p className='quote'>{quote}</p> : null}
-      <button onClick={getQuote}>Get Quote</button>
+      <button className='button' onClick={getQuote}>Get Quote</button>
 
       </div>
     </div>
