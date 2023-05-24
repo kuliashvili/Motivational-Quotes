@@ -5,11 +5,11 @@
 
 
 <h3>Description</h3>
-MyWebApp is a React-based web application that utilizes an API to retrieve and display data. With a clean and user-friendly interface, this application allows users to seamlessly interact with the provided data and experience a smooth browsing experience.
+Motivational-Quotes App is a React-based web application that utilizes an API to retrieve and display data. With a clean and user-friendly interface, this application allows users to seamlessly interact with the provided data and experience a smooth browsing experience.
 <h3>Features</h3>
 <ul>
   <li>
-    API Integration: MyWebApp leverages the power of an API to fetch data and present it dynamically to the user.
+    API Integration: Motivational-Quotes App leverages the power of an API to fetch data and present it dynamically to the user.
   </li>
   <li>
     Responsive Design: The application is designed to adapt to various screen sizes, ensuring a consistent experience across different devices.
@@ -21,7 +21,7 @@ MyWebApp is a React-based web application that utilizes an API to retrieve and d
     Motivational Text Button: Users can click on a button within the application to receive new motivational text, adding an element of inspiration and positivity to their experience.
   </li>
   <li>
-    Customizable Styles: MyWebApp includes a set of predefined styles that can be easily customized to match your preferences or branding.
+    Customizable Styles: Motivational-Quotes App includes a set of predefined styles that can be easily customized to match your preferences or branding.
   </li>
 </ul>
 Feel free to adjust the description and features based on the specific details of your web app.
