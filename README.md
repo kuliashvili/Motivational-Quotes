@@ -24,4 +24,4 @@ Motivational-Quotes App is a React-based web application that utilizes an API to
     Customizable Styles: Motivational-Quotes App includes a set of predefined styles that can be easily customized to match your preferences or branding.
   </li>
 </ul>
-Feel free to adjust the description and features based on the specific details of your web app.
+
