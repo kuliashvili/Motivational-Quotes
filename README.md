@@ -5,11 +5,11 @@
 
 
 <h3>Description</h3>
-Motivational-Quotes App is a React-based web application that utilizes an API to retrieve and display data. With a clean and user-friendly interface, this application allows users to seamlessly interact with the provided data and experience a smooth browsing experience.
+Motivational-Quotes App is a React-based web application, that utilizes an API to retrieve and display data. With a clean and user-friendly interface, this application allows users to seamlessly interact with the provided data and experience a smooth browsing experience.
 <h3>Features</h3>
 <ul>
   <li>
-    API Integration: Motivational-Quotes App leverages the power of an API to fetch data and present it dynamically to the user.
+    API Integration: Motivational-Quotes App leverages the power of an API, to fetch data and present it dynamically to the user.
   </li>
   <li>
     Responsive Design: The application is designed to adapt to various screen sizes,and  ensuring a consistent experience across different devices.
